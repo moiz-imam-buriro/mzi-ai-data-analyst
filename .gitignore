@@ -1,0 +1,22 @@
+# secrets and local settings
+.env
+.venv/
+.venv_test/
+
+# Python
+__pycache__/
+*.pyc
+
+# frontend
+node_modules/
+app/frontend/dist/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# sample files
+sample_data/*
+!sample_data/demo/
